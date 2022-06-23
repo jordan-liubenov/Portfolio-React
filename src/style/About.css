@@ -1,0 +1,8 @@
+.pAbout {
+    width: 70%;
+}
+
+section#About {
+    background-color: rgb(233, 118, 118);
+    background: linear-gradient(180deg, rgb(206, 95, 95) 0%, rgb(250, 168, 91) 100%);
+}
