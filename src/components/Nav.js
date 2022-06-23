@@ -5,11 +5,11 @@ import "../style/NavBar.css";
 class Nav extends Component {
     render() {
         return (
-            <nav class="navbar">
-                <div class="emblem">
-                    <h4 class="myPort">My Portfolio</h4>
+            <nav className="navbar">
+                <div className="emblem">
+                    <h4 className="myPort">My Portfolio</h4>
                 </div>
-                <ul class="links">
+                <ul className="links">
                     <li>
                         <a href="#Name">Home</a>
                     </li>

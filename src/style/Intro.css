@@ -1,0 +1,88 @@
+section#Name {
+    background: rgb(231, 124, 235);
+    background: linear-gradient(90deg, rgb(168, 92, 168) 0%, rgb(102, 140, 172) 100%);
+}
+
+.aboutMe {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.me {
+    margin-top: 60px;
+}
+
+.tools {
+    padding: 80px;
+}
+
+.fa-js-square {
+    color: rgb(239, 241, 108);
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.fa-js-square:hover {
+    color: rgb(255, 238, 0);
+    transition: all .2s ease-in-out;
+}
+
+.fa-node {
+    color: rgb(99, 177, 54);
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.fa-node:hover {
+    color: rgb(103, 231, 28);
+    transition: all .2s ease-in-out;
+}
+
+.fa-html5 {
+    color: rgb(233, 154, 65);
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.fa-html5:hover {
+    color: rgb(243, 135, 12);
+    transition: all .2s ease-in-out;
+}
+
+.fa-css3-alt {
+    color: rgb(65, 110, 235);
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.fa-css3-alt:hover {
+    color: rgb(27, 86, 248);
+    transition: all .2s ease-in-out;
+}
+
+.fa-angular {
+    color: rgb(235, 65, 93);
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.fa-angular:hover {
+    color: rgb(245, 12, 51);
+    transition: all .2s ease-in-out;
+}
+
+.fa-react {
+    color: rgb(65, 173, 235);
+    padding: 12px;
+    transition: all .2s ease-in-out;
+}
+
+.fa-react:hover {
+    color: rgb(12, 158, 243);
+    transition: all .2s ease-in-out;
+}
+
+.mongoIcon {
+    margin-bottom: -10px;
+    opacity: 10;
+}
