@@ -1,0 +1,57 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(88, 145, 199, 0.76);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.myPort {
+    font-size: 35px;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.096);
+
+}
+
+.navbar ul li {
+    margin: 0 5rem;
+    padding: 5px;
+
+}
+
+nav a {
+    transition: all .2s ease-in-out;
+}
+
+nav a:hover {
+    color: rgba(235, 195, 221, 0.548);
+    transition: all .2s ease-in-out;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.links a {
+    color: blanchedalmond;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
