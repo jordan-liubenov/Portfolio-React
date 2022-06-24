@@ -4,7 +4,7 @@ import generator from "../img/generator.png";
 import weather from "../img/weather.png";
 import timer from "../img/timer.png";
 
-import { openInNewTab } from "../util/projects";
+import { openInNewTab } from "../util/events";
 
 import "../style/Projects.css";
 
@@ -38,24 +38,26 @@ class Projects extends Component {
 
     render() {
         return (
-            <section id="Projects">
-                <h1 className="proj">My Projects</h1>
-                <p>(Click on them!)</p>
-                <div className="projects">
-                    {this.state.projects.map((project) => (
-                        <div key={project} className="project">
-                            <img
-                                className={project.cName}
-                                src={project.src}
-                                width={project.width}
-                                height={project.height}
-                                alt={this.state.alt}
-                                onClick={() => openInNewTab(project.url)}
-                            ></img>
-                        </div>
-                    ))}
-                </div>
-            </section>
+            <div className="projectContainer">
+                <section id="Projects">
+                    <h1 className="proj">My Projects</h1>
+
+                    <div className="projects">
+                        {this.state.projects.map((project) => (
+                            <div key={project.cName} className="project">
+                                <img
+                                    className={project.cName}
+                                    src={project.src}
+                                    width={project.width}
+                                    height={project.height}
+                                    alt={this.state.alt}
+                                    onClick={() => openInNewTab(project.url)}
+                                ></img>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            </div>
         );
     }
 }

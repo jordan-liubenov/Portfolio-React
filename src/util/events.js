@@ -1,4 +1,9 @@
 function openInNewTab(url) {
     window.open(url, "_blank", "noopener,noreferrer");
 }
-export { openInNewTab };
+
+function displayEmail(){
+
+}
+
+export { openInNewTab, displayEmail };

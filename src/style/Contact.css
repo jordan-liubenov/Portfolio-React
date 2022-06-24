@@ -1,0 +1,59 @@
+.fa-envelope-square {
+    color: rgb(154, 176, 202);
+    padding: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.fa-linkedin {
+    color: rgb(154, 176, 202);
+    padding: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.fa-github {
+    color: rgb(154, 176, 202);
+    padding: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.fa-linkedin:hover {
+    color: rgba(225, 210, 233, 0.692);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.281),
+        0 0 5px 5px rgba(199, 52, 199, 0.267),
+        0 0 2px 2px rgba(0, 255, 255, 0.219);
+    border-radius: 30%;
+}
+
+.fa-github:hover {
+    color: rgba(225, 210, 233, 0.692);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.281),
+        0 0 5px 5px rgba(199, 52, 199, 0.267),
+        0 0 2px 2px rgba(0, 255, 255, 0.219);
+    border-radius: 30%;
+}
+
+.fa-envelope-square:hover {
+    color: rgba(225, 210, 233, 0.692);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.281),
+        0 0 5px 5px rgba(199, 52, 199, 0.267),
+        0 0 2px 2px rgba(0, 255, 255, 0.219);
+    border-radius: 30%;
+}
+
+.adresses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

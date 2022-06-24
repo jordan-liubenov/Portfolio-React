@@ -3,8 +3,14 @@ section#Projects {
     background: linear-gradient(120deg, rgb(126, 187, 45) 0%, rgb(4, 138, 172) 100%);
 }
 
+.projectContainer {
+    align-items: center;
+    display: flex;
+}
+
+
 .proj {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .project {
