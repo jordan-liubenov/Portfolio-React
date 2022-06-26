@@ -20,12 +20,7 @@ const Contact = () => {
   const [textToShow, setTextToShow] = useState(false);
 
   const handleClick = () => {
-    navigator.clipboard.writeText("jordan.liubenov62@gmail.com");
-
-    if (!textToShow) {
-      alert("Copied to clipboard.");
-    }
-
+    //navigator.clipboard.writeText("jordan.liubenov62@gmail.com");
     setTextToShow(!textToShow);
   };
 
@@ -38,7 +33,7 @@ const Contact = () => {
             <i className={icon.cName}></i>
           </a>
         ))}
-        <a>
+        <a href="mailto:johndoe@fakeemail.com">
           <i
             onClick={handleClick}
             id="envelope"

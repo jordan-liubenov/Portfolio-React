@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     align-items: center;
-    background-color: rgba(88, 145, 199, 0.76);
+    background-color: rgb(88, 145, 199);
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
