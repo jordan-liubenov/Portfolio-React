@@ -33,7 +33,7 @@ const Contact = () => {
             <i className={icon.cName}></i>
           </a>
         ))}
-        <a href="mailto:johndoe@fakeemail.com">
+        <a href="mailto:jordan.liubenov62@gmail.com">
           <i
             onClick={handleClick}
             id="envelope"
